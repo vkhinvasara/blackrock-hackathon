@@ -1,6 +1,14 @@
---------------------------Maps-----------------------------  START
+--------------------------Glide-----------------------------  START
 
-  API Key - API_KEY
+	code is in utils > glide
+
+---------build.gradle (app)-------- START
+    implementation libs.glide
+---------build.gradle (app)-------- END
+
+--------------------------Glide-----------------------------  END
+
+  API Key - AIzaSyCK8gAGTkX6cSZGYiYkP4PcxVwYla_6iOE
 
   Directly create map activity with in build feature there u just have to add API key mentioned above
 
