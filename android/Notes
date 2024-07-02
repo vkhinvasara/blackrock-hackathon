@@ -1,0 +1,37 @@
+--------------------------Maps-----------------------------  START
+
+  API Key - AIzaSyCK8gAGTkX6cSZGYiYkP4PcxVwYla_6iOE
+
+  Directly create map activity with in build feature there u just have to add API key mentioned above
+
+  java, xml, manifeset file is in github > android > utils
+
+
+--------PERMISSIONS---------- START
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+--------PERMISSIONS---------- END
+
+
+---------build.gradle (app)-------- START
+    implementation libs.play.services.location
+    implementation libs.play.services.maps.v1820
+    implementation libs.google.maps.services
+---------build.gradle (app)-------- END
+
+---------build.gradle (project)------ START
+  buildscript {
+      dependencies {
+          classpath "com.google.android.libraries.mapsplatform.secrets-gradle-plugin:secrets-gradle-plugin:2.0.1"
+          classpath 'com.google.gms:google-services:4.4.1'
+      }
+  }
+  
+  plugins {
+      alias(libs.plugins.android.application) apply false
+      alias(libs.plugins.google.android.libraries.mapsplatform.secrets.gradle.plugin) apply false
+  }
+---------build.gradle (project)------ END
+
+--------------------------Maps-----------------------------  END
