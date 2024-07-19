@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Theme.BlackRock" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryVariant">#333333</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">#FFFFFF</item>
+        <item name="colorSecondaryVariant">#CCCCCC</item>
+        <item name="colorOnSecondary">#000000</item>
+
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">#333333</item> <!-- Color of the navigation bar -->
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item> <!-- Status bar color -->
+        <item name="android:windowLightStatusBar">true</item> <!-- Light status bar icons -->
+
+        <!-- Other attributes -->
+        <item name="android:colorBackground">#FFFFFF</item> <!-- Background color -->
+    </style>
+
+</resources>

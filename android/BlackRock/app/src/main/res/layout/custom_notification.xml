@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/notification_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="New SMS Received"
+        android:textColor="@color/grey100"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/notification_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="This is the message content"
+        android:textColor="@color/grey80"
+        android:textSize="12sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupTags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioSalary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Salary"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/radioFoodExpense"
+            style="@style/CustomRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food Expense" />
+
+        <RadioButton
+            android:id="@+id/radioHealthExpense"
+            style="@style/CustomRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Health Expense" />
+
+        <RadioButton
+            android:id="@+id/radioLivingExpense"
+            style="@style/CustomRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Living Expense" />
+
+        <RadioButton
+            android:id="@+id/radioTransportExpense"
+            style="@style/CustomRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transport Expense" />
+
+        <RadioButton
+            android:id="@+id/radioPayables"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payables"
+            android:visibility="gone" />
+    </RadioGroup>
+</LinearLayout>
