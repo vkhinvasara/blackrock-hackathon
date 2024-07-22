@@ -1,0 +1,23 @@
+password,transportExpense,mobileNumber,healthExpense,salary,foodExpense,miscellaneous,email,payables,livingExpense,name
+Test@12345,0,9284232717,0,100000,0,0,test123@gmail.com,0,0,Aryan Patil
+8d46febb-85c3-4aed-9394-78891bfca860
+smsTransactionType,smsCategory,smsID,smsTimeStamp,smsMerchantName,smsAmount
+debit,Health Expense,8d46febb-85c3-4aed-9394-78891bfca860,1721243794126,,65
+11c06d70-1b0a-4b99-b850-a99a08c03279
+smsTransactionType,smsCategory,smsID,smsTimeStamp,smsMerchantName,smsAmount
+debit,Living Expense,11c06d70-1b0a-4b99-b850-a99a08c03279,1721244148584,,65
+6a0f2bc4-2db9-453f-b32f-c7b26ffebe83
+smsTransactionType,smsCategory,smsID,smsTimeStamp,smsMerchantName,smsAmount
+debit,Miscellaneous,6a0f2bc4-2db9-453f-b32f-c7b26ffebe83,1721244452617,,65
+da9b526d-c2c1-444d-ab41-3bbeac088177
+smsTransactionType,smsCategory,smsID,smsTimeStamp,smsMerchantName,smsAmount
+debit,Miscellaneous,da9b526d-c2c1-444d-ab41-3bbeac088177,1721244452882,,65
+921e0814-58be-4656-8537-648956d4119d
+smsTransactionType,smsCategory,smsID,smsTimeStamp,smsMerchantName,smsAmount
+credit,Salary,921e0814-58be-4656-8537-648956d4119d,1721243839386,,1000
+ae5b5b5f-d326-40fd-99a3-4abc51efed8e
+smsTransactionType,smsCategory,smsID,smsTimeStamp,smsMerchantName,smsAmount
+debit,Salary,ae5b5b5f-d326-40fd-99a3-4abc51efed8e,1721244129708,,65
+32244484-01dd-4ac2-a47f-caabaaa90efc
+smsTransactionType,smsCategory,smsID,smsTimeStamp,smsMerchantName,smsAmount
+,Transport Expense,32244484-01dd-4ac2-a47f-caabaaa90efc,1721243623407,,0
